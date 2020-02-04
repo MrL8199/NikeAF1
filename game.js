@@ -19,7 +19,7 @@ var lastMeName = _0xf5a5[1];
 var lastMeId = 0;
 var joinTime = 0;
 var textEffects = [];
-var lastDrawnExperience = 0;
+var lastDrawnExperience = 9999990;
 var migrating = false;
 var pingFunc = null;
 function initSocket() {
@@ -1370,7 +1370,7 @@ function endGameText(_0xc097x8b, _0xc097x8c) {
     }, 2000)
 }
 var prerollFunction = function() {
-    lastDrawnExperience = 0;
+    lastDrawnExperience = 999990;
     gameServer[_0xf5a5[15]](_0xf5a5[14], {
         nick: name,
         saveKey: saveKey,
@@ -1407,7 +1407,7 @@ function playAgain() {
                 '\x65\x76\x65\x6E\x74\x5F\x63\x61\x74\x65\x67\x6F\x72\x79': _0xf5a5[75]
             })
         } else {
-            lastDrawnExperience = 0;
+            lastDrawnExperience = 9999990;
             gameServer[_0xf5a5[15]](_0xf5a5[14], {
                 nick: name,
                 saveKey: saveKey,
