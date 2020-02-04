@@ -134,7 +134,7 @@ function initSocket() {
     });
     var _0xc097x1d = false;
     gameServer[_0xf5a5[8]](_0xf5a5[56], function(_0xc097x1c) {
-        imDead = true;
+        imDead = false;
         lastDrawnExperience = -1;
         endGameText(_0xc097x1c[_0xf5a5[57]], _0xc097x1c[_0xf5a5[58]]);
         window[_0xf5a5[17]] = null;
